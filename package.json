@@ -3,7 +3,8 @@
     "displayName": "Aerno",
     "description": "Simple theme for Visual Studio Code",
     "publisher": "xzadudu179",
-    "version": "0.0.1",
+    "version": "0.0.2",
+    "icon": "images/Aerno-Theme-Icon-small.png",
     "repository": {
         "url": "https://github.com/xzadudu179/Aerno-Theme.git"
     },

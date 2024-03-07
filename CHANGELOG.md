@@ -12,3 +12,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 -   Create `Aerno Dark` theme
 -   Create [Github repository](https://github.com/xzadudu179/Aerno-Theme)
+
+## V0.0.2
+
+- Create Logo
