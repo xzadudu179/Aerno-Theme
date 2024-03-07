@@ -6,4 +6,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Initial release
+-   Initial release
+
+## V0.0.1
+
+-   Create `Aerno Dark` theme
+-   Create [Github repository](https://github.com/xzadudu179/Aerno-Theme)

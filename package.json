@@ -4,7 +4,9 @@
     "description": "Simple theme for Visual Studio Code",
     "publisher": "xzadudu179",
     "version": "0.0.1",
-    "repository": {"url": ""},
+    "repository": {
+        "url": "https://github.com/xzadudu179/Aerno-Theme.git"
+    },
     "engines": {
         "vscode": "^1.87.0"
     },
