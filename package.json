@@ -1,0 +1,23 @@
+{
+    "name": "aerno-theme",
+    "displayName": "Aerno",
+    "description": "Simple theme for Visual Studio Code",
+    "publisher": "xzadudu179",
+    "version": "0.0.1",
+    "repository": {"url": ""},
+    "engines": {
+        "vscode": "^1.87.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Aerno Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/xzadudu179-color-theme.json"
+            }
+        ]
+    }
+}
