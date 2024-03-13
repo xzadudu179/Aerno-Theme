@@ -208,7 +208,7 @@
             "name": "Keyword, Storage",
             "scope": ["keyword", "storage.type", "storage.modifier"],
             "settings": {
-                "foreground": "#faecad"
+                "foreground": "#91bdff"
             }
         },
         {
@@ -216,18 +216,31 @@
             "scope": [
                 "keyword.control",
                 "constant.other.color",
-                "meta.tag",
-                "punctuation.definition.tag",
+                // "meta.tag",
+                // "punctuation.definition.tag",
                 "punctuation.separator.inheritance.php",
-                "punctuation.definition.tag.html",
-                "punctuation.definition.tag.begin.html",
-                "punctuation.definition.tag.end.html",
+                // "punctuation.definition.tag.html",
+                // "punctuation.definition.tag.begin.html",
+                // "punctuation.definition.tag.end.html",
                 "punctuation.section.embedded",
                 "keyword.other.template",
                 "keyword.other.substitution"
             ],
             "settings": {
-                "foreground": "#7ebaff"
+                "foreground": "#91bdff"
+            }
+        },
+        {
+            "name": "Tag",
+            "scope": [
+                "meta.tag",
+                "punctuation.definition.tag",
+                "punctuation.definition.tag.html",
+                "punctuation.definition.tag.begin.html",
+                "punctuation.definition.tag.end.html"
+            ],
+            "settings": {
+                "foreground": "#b2b6d6"
             }
         },
         {
@@ -245,34 +258,41 @@
             "name": "Function, Special Method",
             "scope": ["entity.name.function"],
             "settings": {
-                "foreground": "#fdb5f7",
                 "fontStyle": "bold"
             }
         },
         {
             "name": "Function call",
             "scope": [
+                "entity.name.function",
                 "meta.function-call",
                 "variable.function",
                 "support.function",
                 "keyword.other.special-method"
             ],
             "settings": {
-                "foreground": "#fdb5f7"
+                "foreground": "#fab68f"
+            }
+        },
+        {
+            "name": "Function call",
+            "scope": ["support.function"],
+            "settings": {
+                "fontStyle": "italic"
             }
         },
         {
             "name": "Block Level Variables",
             "scope": ["meta.block variable.other"],
             "settings": {
-                "foreground": "#ff788e"
+                "foreground": "#ccd5ec"
             }
         },
         {
             "name": "Other Variable, String Link",
             "scope": ["support.other.variable", "string.other.link"],
             "settings": {
-                "foreground": "#ff788e"
+                "foreground": "#ccd5ec"
             }
         },
         {
@@ -286,14 +306,15 @@
                 "variable.parameter"
             ],
             "settings": {
-                "foreground": "#faa1b7"
+                "foreground": "#F79DDE"
             }
         },
         {
             "name": "Unit",
             "scope": ["keyword.other.unit", "keyword.other"],
             "settings": {
-                "foreground": "#b4aeff"
+                "foreground": "#91bdff",
+                "fontStyle": "bold"
             }
         },
         {
@@ -308,7 +329,7 @@
                 "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
             ],
             "settings": {
-                "foreground": "#b4aeff"
+                "foreground": "#b2a1ff"
             }
         },
         {
@@ -324,14 +345,21 @@
                 "support.type.sys-types"
             ],
             "settings": {
-                "foreground": "#fda0c4"
+                "foreground": "#faecad"
+            }
+        },
+        {
+            "name": "Class name",
+            "scope": ["entity.name"],
+            "settings": {
+                // "fontStyle": "bold"
             }
         },
         {
             "name": "Entity Types",
             "scope": ["support.type"],
             "settings": {
-                "foreground": "#B2CCD6"
+                "foreground": "#b2b6d6"
             }
         },
         {
@@ -356,15 +384,15 @@
                 "variable.other.class.js"
             ],
             "settings": {
-                "foreground": "#ff788e"
+                "foreground": "#faa1b7"
             }
         },
         {
             "name": "Language methods",
             "scope": ["variable.language"],
             "settings": {
-                "fontStyle": "italic",
-                "foreground": "#ff788e"
+                // "fontStyle": "italic",
+                "foreground": "#92f2ff"
             }
         },
         {
@@ -495,7 +523,7 @@
                 "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "#f0d096"
+                "foreground": "#ffdfa3"
             }
         },
         {
@@ -504,7 +532,7 @@
                 "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "#ffa396"
+                "foreground": "#fab68f"
             }
         },
         {
@@ -540,7 +568,7 @@
                 "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "#f0d096"
+                "foreground": "#ffdfa3"
             }
         },
         {
@@ -549,7 +577,7 @@
                 "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "#ffa396"
+                "foreground": "#fab68f"
             }
         },
         {

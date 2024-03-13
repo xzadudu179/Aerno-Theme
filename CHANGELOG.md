@@ -15,4 +15,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## V0.0.2
 
-- Create Logo
+-   Create Logo
+
+## V0.0.4
+
+-   Change some tokenColors
+-   Add examples folder

@@ -1,3 +1,6 @@
 node_modules
 *.vsix
 publish.bat
+.vscode
+.idea
+.metals
