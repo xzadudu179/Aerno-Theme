@@ -275,6 +275,13 @@
             }
         },
         {
+            "name": "Function name",
+            "scope": ["entity.name.function"],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
             "name": "Support function",
             "scope": ["support.function"],
             "settings": {

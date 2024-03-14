@@ -1,15 +1,15 @@
 {
     "name": "aerno-theme",
-    "displayName": "Aerno",
+    "displayName": "Aerno Theme",
     "description": "Simple theme for Visual Studio Code",
     "publisher": "xzadudu179",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "icon": "images/Aerno-Theme-Icon-small.png",
     "repository": {
         "url": "https://github.com/xzadudu179/Aerno-Theme.git"
     },
     "engines": {
-        "vscode": "^1.87.0"
+        "vscode": "^1.5.0"
     },
     "categories": [
         "Themes"

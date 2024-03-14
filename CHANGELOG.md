@@ -19,5 +19,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## V0.0.4
 
--   Change some tokenColors
+-   Changed some tokenColors
 -   Add examples folder
+-   Changed display name to `Aerno Theme`
