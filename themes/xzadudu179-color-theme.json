@@ -21,6 +21,8 @@
 
         "statusBar.background": "#1a1924",
         "statusBar.debuggingForeground": "#ffec98",
+        "statusBar.noFolderBackground": "#1a1924",
+        "statusBar.noFolderForeground": "#9dacff",
         "statusBar.debuggingBackground": "#1a1924",
         "statusBar.foreground": "#d8e0f7",
 
